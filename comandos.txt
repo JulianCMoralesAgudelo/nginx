@@ -1,0 +1,7 @@
+# Construir contenedor
+
+docker build . -t nginx_server
+
+# Ejecutar imagen del contenedor
+
+docker run --name nginx_server -d -p 80:80 nginx_server 
